@@ -12,12 +12,13 @@ using UnityEngine;
 
 public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
 {
-    [SerializeField] private GameObject playerCharacter;
+    [SerializeField] private GameObject playerCharacter; //Player için hazırladığımız GameObject
     public void PlayerJoined(PlayerRef player)
     {
         Runner.Spawn(playerCharacter, new Vector3(0, 1f, 0), Quaternion.identity);
     }
 }
 ```
+- **Player Prefabımıza Network Object, Network Transform, Character Controller eklediğimizden emin olmalıyız.**
 - Oyunumuzu Shared modunda çalıştırdığımızda sunucunun bizim belirlediğimiz Prefabı Spawn ettiğini görebiliriz.
 
