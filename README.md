@@ -105,3 +105,4 @@ public class FirstPersonCamera : MonoBehaviour
     }
 }
 ```
+- Karakterimizin temel mekaniğini multiplayer şekilde oluşturmuş olduk. Bundan sonra ekleyeceğim her sistemi yeni bir branch oluşturup paylaşacağım.
