@@ -24,7 +24,7 @@ public class Health : NetworkBehaviour
     }
 }
 ```
-- Üzerine tıkladığımızı kontrol eden Raycasting sistemini yazalım.
+- Üzerine ateş ettiğimizi kontrol eden Raycasting sistemini yazalım.
 
 ```c#
 using Fusion;
